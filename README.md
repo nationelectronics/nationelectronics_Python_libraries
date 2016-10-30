@@ -6,7 +6,7 @@ Python Libraries and demo code to work with Raspberry Pi expansion boards from h
 To download to your Raspberry Pi type in terminal: 
 
 ```
-git clone https://github.com/nationelectronics/nationelectronics_python_libraries.git
+git clone https://github.com/nationelectronics/nationelectronics_Python_libraries.git
 ```
 
 ###8Channel-ADC
