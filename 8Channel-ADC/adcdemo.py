@@ -40,7 +40,7 @@ chip = 0
 
 # Open SPI bus
 spi = spidev.SpiDev()
-spi.open(chip, 0)
+spi.open(0, chip)
 
 while True:
 
