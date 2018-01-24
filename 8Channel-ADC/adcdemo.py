@@ -42,6 +42,12 @@ chip = 0
 spi = spidev.SpiDev()
 spi.open(0, chip)
 
+# The linux-raspberrypi kernel update to 4.9.43 changes the SPI default 
+# max speed from 100KHz to 125MHz. You had to set the max speed manualy.
+
+# Setting the max speed
+spi.max_speed_hz = 32000000
+
 while True:
 
   c0 = ReadADCChannel(0)
