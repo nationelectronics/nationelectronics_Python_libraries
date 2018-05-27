@@ -46,7 +46,7 @@ spi.open(0, chip)
 # max speed from 100KHz to 125MHz. You had to set the max speed manualy.
 
 # Setting the max speed
-spi.max_speed_hz = 32000000
+spi.max_speed_hz = 200000
 
 while True:
 
