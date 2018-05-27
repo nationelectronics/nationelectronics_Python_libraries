@@ -43,7 +43,7 @@ spi = spidev.SpiDev()
 spi.open(0, chip)
 
 # set the maximux speed
-spi.max_speed_hz = 32000000
+spi.max_speed_hz = 200000
 
 #print("Max speed Hz : {}".format(spi.max_speed_hz))
 
